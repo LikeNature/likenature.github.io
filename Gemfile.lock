@@ -19,6 +19,8 @@ GEM
     concurrent-ruby (1.1.9)
     dnsruby (1.61.7)
       simpleidn (~> 0.1)
+    em (0.0.1)
+      eventmachine
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -275,6 +277,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  em (~> 0.0.1)
   github-pages (~> 219)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
